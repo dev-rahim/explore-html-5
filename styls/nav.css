@@ -1,0 +1,39 @@
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    padding: 0 20px;
+}
+nav >ul >li:hover{
+    background-color: darkgray;
+}
+nav  li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+}
+nav > ul > li:hover >ul{
+    display: block;
+}
+.dropdawn{
+    padding: 0;
+    position: absolute;
+
+    display: none;
+}
+.dropdawn li{
+    padding: 0 20px;
+    margin: 0;
+    text-align: center;
+    background-color: lightyellow;
+}
+
+.dropdawn li:hover{
+    background-color: lightcyan;
+
+}
